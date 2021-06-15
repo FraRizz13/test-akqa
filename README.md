@@ -20,7 +20,7 @@ call) upon your preference. The latter method is slightly more challenging and w
 
 DRUPAL BLOCK
 
-I first divided the problem into two parts:
+I divided the problem into two parts:
 1. installation of the Drupal CMS and reading the documentation for the creation of a custom block
 2. development in html, css and javascript the API request
 
