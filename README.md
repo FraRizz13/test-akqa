@@ -18,6 +18,7 @@ call) upon your preference. The latter method is slightly more challenging and w
 
 
 
+
 DRUPAL BLOCK
 
 I first divided the problem into two parts:
@@ -33,6 +34,8 @@ I first divided the problem into two parts:
   6. Upload the background image
 
 - Regarding the management of the API, a script has been developed that uses the fetch API to make the JSON call
+
+
 
 
 WORDPRESS WIDGET
