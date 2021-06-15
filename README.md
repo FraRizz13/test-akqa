@@ -3,12 +3,16 @@
 The request of this sproject was to have a client has requested the implementation of a widget he wants to embed in different websites, and has provided some specifications that we need to follow.
 
 • As a user visiting a site, I want to see a widget that, upon interaction, shows me a fun chuck Norris fact.
+
 • The widget must be implemented as a pluggable wordpress widget and as a Drupal block that can be placed in any region of a theme (considering your existing Wordpress experience, try to give more
 priority to the Drupal part, as it could result in a more challenging and interesting activity).
+
 • The widget adapts its width based on the column that contains it.
+
 • The widget uses the following REST API to get a rancom Chuck Norris quote: https://api.chucknorris.io/.
 Use your creativity to use any of the fields contained in the API response, the only required one to be
 used is “value”.
+
 • The REST API can be queried either from the front-end (via JS) or from the back-end (server-to-server
 call) upon your preference. The latter method is slightly more challenging and will be considered as an added value to the test.
 
