@@ -25,7 +25,7 @@ I first divided the problem into two parts:
 1. installation of the Drupal CMS and reading of the documentation for the creation of a custom block
 2. development in html, css and javascript the API request
 
-- to develop the part of the drupal block I used an additional module called "component" which manages in a simpler way the CSS and JS files as well as the creation of an html template. To complete this development I followed the following steps:
+- to develop the part of the drupal block I used an additional module called "component" (https://www.drupal.org/project/component) which manages in a simpler way the CSS and JS files as well as the creation of an html template. To complete this development I followed the following steps:
   1. Write a simple module descriptor in drupal/modules/component/modules/component_example/components/component_test.info.yml to create a custom module
   2. Enable the module. Write a simple-ish component descriptor file in drupal/modules/component/modules/component_example/components/component_test/comp_test1.component.yml to create a new component block.
   3. Create component's body template in index.html
