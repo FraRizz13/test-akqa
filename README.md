@@ -4,8 +4,7 @@ The request of this sproject was to have a client has requested the implementati
 
 • As a user visiting a site, I want to see a widget that, upon interaction, shows me a fun chuck Norris fact.
 
-• The widget must be implemented as a pluggable wordpress widget and as a Drupal block that can be placed in any region of a theme (considering your existing Wordpress experience, try to give more
-priority to the Drupal part, as it could result in a more challenging and interesting activity).
+• The widget must be implemented as a pluggable wordpress widget and as a Drupal block that can be placed in any region of a theme.
 
 • The widget adapts its width based on the column that contains it.
 
@@ -22,7 +21,7 @@ call) upon your preference. The latter method is slightly more challenging and w
 DRUPAL BLOCK
 
 I first divided the problem into two parts:
-1. installation of the Drupal CMS and reading of the documentation for the creation of a custom block
+1. installation of the Drupal CMS and reading the documentation for the creation of a custom block
 2. development in html, css and javascript the API request
 
 - to develop the part of the drupal block I used an additional module called "component" (https://www.drupal.org/project/component) which manages in a simpler way the CSS and JS files as well as the creation of an html template. To complete this development I followed the following steps:
@@ -45,8 +44,8 @@ I used the second option in order to use it within any WordPress site.
 
 The following steps explain the steps for creating the widget:
   1. Inside the plugins folder create the main plugin file /chucknorris/chucknorris.php
-  2. Write the file /chucknorris/includes/chucknorris-scripts.php where JS and CSS files are added with a Wordpress function
-  3. Write the file /chucknorris/includes/chucknorris-class.php where the API widget is developed
-  4. Write the style.css file
-  5. Write the script.js file
+  2. Create the file /chucknorris/includes/chucknorris-scripts.php where JS and CSS files are added with a Wordpress function
+  3. Create the file /chucknorris/includes/chucknorris-class.php where the API widget is developed
+  4. Create the style.css file
+  5. Create the script.js file
 
